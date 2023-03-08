@@ -1,21 +1,5 @@
 version: v1
 
 id:
-  org: XXX-XXX-XXX-XX
-  app: XXX-XXX-XXX-XX
-  
-scanners:
-  - sast
-  #- dast
-  - secret
-  - sca
-  - iac
-  - container   
-    
-dast:
-#  url: http://xxx.xxx.xx/
-#  fortipentest_scanner: false #true|false
-  full_scan: true #true|false
-
-fail_pipeline:
-  risk_rating: 8
+  org: d4a10849-445a-482c-b013-975fb959e5e3
+  app: 06b62d7e-db8b-4cae-b6a4-67ccf7bd1685
